@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #de87c1;
+}
+.logo{
+    display: flex;
+justify-content: center;
+
+}
+.logo i{
+    height: 100px;
+    color:#f9301a;
+    background-color: #dfb9b9;
+    border-radius: 100px;
+    width: 100px;
+   display: flex;
+   justify-content: center;
+   padding: 5px;
+   align-items: center;
+   text-align: center;
+   font-size: 30px;
+}
+
+.cards {
+max-width: 360px;
+background-color: #eadee6;
+margin: 20px;
+box-shadow: 1 1 10px rgba(0, 0, 0, 0.1);
+
+}
+.cards h2, p{
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.cards h2{
+    font-size: 30px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.cards img{
+    height: 15rem;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    box-shadow: 1 1 10px rgba(0, 0, 0, 0.1);
+}
+.cards video{
+    height: 15rem;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    box-shadow: 1 1 10px rgba(0, 0, 0, 0.1);
+}
